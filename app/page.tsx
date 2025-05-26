@@ -23,6 +23,7 @@ import { CompanyLogos } from "@/components/company-logos"
 import { FeatureHighlight } from "@/components/feature-highlight"
 import { PricingCard } from "@/components/pricing-card"
 import { TestimonialCard } from "@/components/testimonial-card"
+import LogoSlider from "@/components/LogoSlider"
 
 export default function Home() {
   return (
@@ -586,6 +587,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <LogoSlider/>
 
       {/* Pricing Section */}
       <section id="pricing" className="bg-gray-50 py-24">
